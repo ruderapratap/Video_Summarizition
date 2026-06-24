@@ -5,6 +5,7 @@ A clean, professional front-end for the video summarization + RAG pipeline.
 
 import streamlit as st
 from dotenv import load_dotenv
+import os
 
 from audio_processor import process_input
 from transcriber import transcribe_all
