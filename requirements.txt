@@ -30,7 +30,7 @@ tiktoken>=0.7.0  # Token counting for text splitting
 torchvision
 
 # ── Streamlit UI ──────────────────────────────────────────────────────────────
-streamlit>=1.35.0
+streamlit
 streamlit-extras>=0.4.0           # Additional Streamlit widgets / utilities
 watchdog>=4.0.0                   # File-change watcher (improves Streamlit hot-reload)
 
@@ -47,5 +47,3 @@ requests>=2.32.0
 
 
 langchain_chroma
-tempfile
-streamlit
