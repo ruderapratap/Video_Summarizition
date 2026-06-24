@@ -2,8 +2,9 @@
 # Python >= 3.10 recommended
 
 # ── Audio / Video acquisition ─────────────────────────────────────────────────
-yt-dlp>=2024.4.9                  # Download audio from YouTube URLs
-pydub>=0.25.1                     # Audio file manipulation / format conversion
+#yt-dlp>=2024.4.9                  # Download audio from YouTube URLs
+yt-dlp>=2025.1.0
+pydub>=0.25.1      # Audio file manipulation / format conversion
 ffmpeg-python>=0.2.0              # FFmpeg bindings (FFmpeg binary must be installed separately)
 
 # ── Speech-to-Text (local Whisper) ────────────────────────────────────────────
@@ -47,5 +48,3 @@ requests>=2.32.0
 
 
 langchain_chroma
-ffmpeg
-JavaScript
