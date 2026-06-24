@@ -4,7 +4,10 @@ from langchain_mistralai import ChatMistralAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough, RunnableLambda
+from dotenv import load_dotenv
 import os 
+
+load_dotenv()
 
 
 def get_llm():
@@ -30,7 +33,6 @@ def extract_action_items(transcript:str)->str:
         "- Deadline (if mentioned, else write 'Not specified')\n\n"
         "Format as a numbered list. If none found say 'No action items found.'"
     )
-
     return chain.invoke(transcript)
 
 
