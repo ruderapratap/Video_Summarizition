@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 from audio_processor import process_input
 from transcriber import transcribe_all
 from summarizer import summarize, generate_title
-from extractor import extract_action_items, extract_key_decisions, extract_questions
+from insight_extractor import extract_action_items, extract_key_decisions, extract_questions
 from rag_engine import build_rag_chain, ask_question
 
 
